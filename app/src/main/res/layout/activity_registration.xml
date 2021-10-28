@@ -23,9 +23,15 @@
         app:layout_constraintVertical_bias="0.049" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+<<<<<<< Updated upstream
         android:id="@+id/layout1"
         android:layout_width="377dp"
         android:layout_height="594dp"
+=======
+        android:id="@+id/layout2"
+        android:layout_width="390dp"
+        android:layout_height="593dp"
+>>>>>>> Stashed changes
         android:background="@drawable/subsection"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,8 +55,13 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+<<<<<<< Updated upstream
             app:layout_constraintTop_toTopOf="@+id/layout1"
             app:layout_constraintVertical_bias="0.061">
+=======
+            app:layout_constraintTop_toTopOf="@id/layout2"
+            app:layout_constraintVertical_bias="0.08">
+>>>>>>> Stashed changes
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/RegisterFullName"
@@ -174,4 +185,4 @@
             app:layout_constraintVertical_bias="0.433" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
